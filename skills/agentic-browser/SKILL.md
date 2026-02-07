@@ -274,10 +274,10 @@ Browser state persists within a session. Always:
 
 ```bash
 # Web search (for research + browse)
-npx skills add inference-sh/skills@web-search
+npx skills add inferencesh/skills@web-search
 
 # LLM models (analyze extracted content)
-npx skills add inference-sh/skills@llm-models
+npx skills add inferencesh/skills@llm-models
 ```
 
 ## Documentation

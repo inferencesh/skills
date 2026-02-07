@@ -71,30 +71,30 @@ infsh app run infsh/rodin-3d-generator --input '{"prompt": "a wooden chair"}'
 
 ```bash
 # Image generation (FLUX, Gemini, Grok, Seedream)
-npx skills add inference-sh/skills@ai-image-generation
+npx skills add inferencesh/skills@ai-image-generation
 
 # Video generation (Veo, Seedance, Wan, OmniHuman)
-npx skills add inference-sh/skills@ai-video-generation
+npx skills add inferencesh/skills@ai-video-generation
 
 # LLMs (Claude, Gemini, Kimi, GLM via OpenRouter)
-npx skills add inference-sh/skills@llm-models
+npx skills add inferencesh/skills@llm-models
 
 # Web search (Tavily, Exa)
-npx skills add inference-sh/skills@web-search
+npx skills add inferencesh/skills@web-search
 
 # AI avatars & lipsync (OmniHuman, Fabric, PixVerse)
-npx skills add inference-sh/skills@ai-avatar-video
+npx skills add inferencesh/skills@ai-avatar-video
 
 # Twitter/X automation
-npx skills add inference-sh/skills@twitter-automation
+npx skills add inferencesh/skills@twitter-automation
 
 # Model-specific
-npx skills add inference-sh/skills@flux-image
-npx skills add inference-sh/skills@google-veo
+npx skills add inferencesh/skills@flux-image
+npx skills add inferencesh/skills@google-veo
 
 # Utilities
-npx skills add inference-sh/skills@image-upscaling
-npx skills add inference-sh/skills@background-removal
+npx skills add inferencesh/skills@image-upscaling
+npx skills add inferencesh/skills@background-removal
 ```
 
 ## Reference Files

@@ -20,10 +20,10 @@ Find and install complementary skills to expand your AI agent's capabilities.
 npx skills search "inference-sh image generation"
 
 # List available skills
-npx skills list inference-sh/skills
+npx skills list inferencesh/skills
 
 # Install a skill
-npx skills add inference-sh/skills@ai-image-generation
+npx skills add inferencesh/skills@ai-image-generation
 ```
 
 ## Available Skill Categories
@@ -49,56 +49,56 @@ npx skills add inference-sh/skills@ai-image-generation
 
 ### Media Generation
 ```bash
-npx skills add inference-sh/skills@ai-image-generation
-npx skills add inference-sh/skills@ai-video-generation
-npx skills add inference-sh/skills@ai-music-generation
+npx skills add inferencesh/skills@ai-image-generation
+npx skills add inferencesh/skills@ai-video-generation
+npx skills add inferencesh/skills@ai-music-generation
 ```
 
 ### Image Processing
 ```bash
-npx skills add inference-sh/skills@image-upscaling
-npx skills add inference-sh/skills@background-removal
-npx skills add inference-sh/skills@flux-image
+npx skills add inferencesh/skills@image-upscaling
+npx skills add inferencesh/skills@background-removal
+npx skills add inferencesh/skills@flux-image
 ```
 
 ### Audio Processing
 ```bash
-npx skills add inference-sh/skills@text-to-speech
-npx skills add inference-sh/skills@speech-to-text
+npx skills add inferencesh/skills@text-to-speech
+npx skills add inferencesh/skills@speech-to-text
 ```
 
 ### Research & Automation
 ```bash
-npx skills add inference-sh/skills@web-search
-npx skills add inference-sh/skills@twitter-automation
+npx skills add inferencesh/skills@web-search
+npx skills add inferencesh/skills@twitter-automation
 ```
 
 ### Everything at Once
 ```bash
 # Install the full platform skill with all 150+ apps
-npx skills add inference-sh/skills@inference-sh
+npx skills add inferencesh/skills@inference-sh
 ```
 
 ## Skill Combinations
 
 ### Research Agent
 ```bash
-npx skills add inference-sh/skills@web-search
-npx skills add inference-sh/skills@llm-models
+npx skills add inferencesh/skills@web-search
+npx skills add inferencesh/skills@llm-models
 ```
 
 ### Content Creator
 ```bash
-npx skills add inference-sh/skills@ai-image-generation
-npx skills add inference-sh/skills@ai-video-generation
-npx skills add inference-sh/skills@text-to-speech
+npx skills add inferencesh/skills@ai-image-generation
+npx skills add inferencesh/skills@ai-video-generation
+npx skills add inferencesh/skills@text-to-speech
 ```
 
 ### Media Processor
 ```bash
-npx skills add inference-sh/skills@image-upscaling
-npx skills add inference-sh/skills@background-removal
-npx skills add inference-sh/skills@speech-to-text
+npx skills add inferencesh/skills@image-upscaling
+npx skills add inferencesh/skills@background-removal
+npx skills add inferencesh/skills@speech-to-text
 ```
 
 ## Managing Skills
@@ -111,7 +111,7 @@ npx skills list
 npx skills update
 
 # Remove a skill
-npx skills remove inference-sh/skills@ai-image-generation
+npx skills remove inferencesh/skills@ai-image-generation
 ```
 
 ## Documentation

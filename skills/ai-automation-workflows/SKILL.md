@@ -392,16 +392,16 @@ done
 
 ```bash
 # Content pipelines
-npx skills add inference-sh/skills@ai-content-pipeline
+npx skills add inferencesh/skills@ai-content-pipeline
 
 # RAG pipelines
-npx skills add inference-sh/skills@ai-rag-pipeline
+npx skills add inferencesh/skills@ai-rag-pipeline
 
 # Social media automation
-npx skills add inference-sh/skills@ai-social-media-content
+npx skills add inferencesh/skills@ai-social-media-content
 
 # Full platform skill
-npx skills add inference-sh/skills@inference-sh
+npx skills add inferencesh/skills@inference-sh
 ```
 
 Browse all apps: `infsh app list`
