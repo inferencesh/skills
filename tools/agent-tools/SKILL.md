@@ -53,6 +53,24 @@ infsh app run x/post-tweet --input '{"text": "Hello from AI!"}'
 infsh app run infsh/rodin-3d-generator --input '{"prompt": "a wooden chair"}'
 ```
 
+## Local File Uploads
+
+The CLI automatically uploads local files when you provide a path instead of a URL:
+
+```bash
+# Upscale a local image
+infsh app run falai/topaz-image-upscaler --input '{"image": "/path/to/photo.jpg", "upscale_factor": 2}'
+
+# Image-to-video from local file
+infsh app run falai/wan-2-5-i2v --input '{"image": "./my-image.png", "prompt": "make it move"}'
+
+# Avatar with local audio and image
+infsh app run bytedance/omnihuman-1-5 --input '{"audio": "/path/to/speech.mp3", "image": "/path/to/face.jpg"}'
+
+# Post tweet with local media
+infsh app run x/post-create --input '{"text": "Check this out!", "media": "./screenshot.png"}'
+```
+
 ## Commands
 
 | Task | Command |
