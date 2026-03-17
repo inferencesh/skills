@@ -12,7 +12,7 @@ Create professional marketing videos via [inference.sh](https://inference.sh) CL
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@agent-tools`
+> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
 
 ```bash
 infsh login
@@ -287,7 +287,7 @@ npx skills add inference-sh/skills@text-to-speech
 npx skills add inference-sh/skills@ai-social-media-content
 
 # Full platform skill
-npx skills add inference-sh/skills@agent-tools
+npx skills add inference-sh/skills@infsh-cli
 ```
 
 Browse all apps: `infsh app list`

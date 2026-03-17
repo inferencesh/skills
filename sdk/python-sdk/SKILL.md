@@ -464,7 +464,7 @@ response = agent.send_message(
 npx skills add inference-sh/skills@javascript-sdk
 
 # Full platform skill (all 150+ apps via CLI)
-npx skills add inference-sh/skills@agent-tools
+npx skills add inference-sh/skills@infsh-cli
 
 # LLM models
 npx skills add inference-sh/skills@llm-models
@@ -477,7 +477,7 @@ npx skills add inference-sh/skills@ai-image-generation
 
 - [Python SDK Reference](https://inference.sh/docs/api/sdk-python) - Full API documentation
 - [Agent SDK Overview](https://inference.sh/docs/api/agent-sdk) - Building agents
-- [Tool Builder Reference](https://inference.sh/docs/api/agent-tools) - Creating tools
+- [Tool Builder Reference](https://inference.sh/docs/api/infsh-cli) - Creating tools
 - [Authentication](https://inference.sh/docs/api/authentication) - API key setup
 - [Streaming](https://inference.sh/docs/api/sdk/streaming) - Real-time updates
 - [File Uploads](https://inference.sh/docs/api/sdk/files) - File handling

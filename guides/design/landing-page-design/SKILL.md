@@ -10,7 +10,7 @@ Design high-converting landing pages with AI-generated visuals via [inference.sh
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@agent-tools`
+> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
 
 ```bash
 infsh login

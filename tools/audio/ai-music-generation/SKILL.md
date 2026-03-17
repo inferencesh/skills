@@ -12,7 +12,7 @@ Generate music and songs via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@agent-tools`
+> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
 
 ```bash
 infsh login
@@ -106,7 +106,7 @@ infsh app run infsh/diffrythm --input '{
 
 ```bash
 # Full platform skill (all 150+ apps)
-npx skills add inference-sh/skills@agent-tools
+npx skills add inference-sh/skills@infsh-cli
 
 # Text-to-speech
 npx skills add inference-sh/skills@text-to-speech

@@ -12,7 +12,7 @@ Access 100+ language models via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@agent-tools`
+> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
 
 ```bash
 infsh login
@@ -111,7 +111,7 @@ infsh app run openrouter/claude-sonnet-45 --input input.json
 
 ```bash
 # Full platform skill (all 150+ apps)
-npx skills add inference-sh/skills@agent-tools
+npx skills add inference-sh/skills@infsh-cli
 
 # Web search (combine with LLMs for RAG)
 npx skills add inference-sh/skills@web-search

@@ -12,7 +12,7 @@ Generate natural AI voices via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@agent-tools`
+> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
 
 ```bash
 infsh login
@@ -268,7 +268,7 @@ npx skills add inference-sh/skills@ai-avatar-video
 npx skills add inference-sh/skills@ai-video-generation
 
 # Full platform skill
-npx skills add inference-sh/skills@agent-tools
+npx skills add inference-sh/skills@infsh-cli
 ```
 
 Browse audio apps: `infsh app list --category audio`

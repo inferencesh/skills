@@ -12,7 +12,7 @@ Generate videos with 40+ AI models via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@agent-tools`
+> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
 
 ```bash
 infsh login
@@ -154,7 +154,7 @@ infsh app run infsh/media-merger --input '{
 
 ```bash
 # Full platform skill (all 150+ apps)
-npx skills add inference-sh/skills@agent-tools
+npx skills add inference-sh/skills@infsh-cli
 
 # Pruna P-Video (fast & economical)
 npx skills add inference-sh/skills@p-video

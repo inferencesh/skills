@@ -12,7 +12,7 @@ Remove backgrounds from images via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@agent-tools`
+> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
 
 ```bash
 infsh login
@@ -70,7 +70,7 @@ Returns a PNG with transparent background.
 
 ```bash
 # Full platform skill (all 150+ apps)
-npx skills add inference-sh/skills@agent-tools
+npx skills add inference-sh/skills@infsh-cli
 
 # Image generation
 npx skills add inference-sh/skills@ai-image-generation

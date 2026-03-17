@@ -12,7 +12,7 @@ Upscale and enhance images via [inference.sh](https://inference.sh) CLI.
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@agent-tools`
+> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
 
 ```bash
 infsh login
@@ -57,7 +57,7 @@ infsh app run falai/topaz-image-upscaler --input '{"image_url": "<url-from-step-
 
 ```bash
 # Full platform skill (all 150+ apps)
-npx skills add inference-sh/skills@agent-tools
+npx skills add inference-sh/skills@infsh-cli
 
 # Image generation (generate then upscale)
 npx skills add inference-sh/skills@ai-image-generation

@@ -44,7 +44,7 @@ Every skill should reference related skills:
 ## Related Skills
 
 \`\`\`bash
-npx skills add inference-sh/skills@agent-tools
+npx skills add inference-sh/skills@infsh-cli
 npx skills add inference-sh/skills@related-skill
 \`\`\`
 ```

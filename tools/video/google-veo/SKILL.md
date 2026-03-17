@@ -12,7 +12,7 @@ Generate videos with Google Veo models via [inference.sh](https://inference.sh) 
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@agent-tools`
+> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
 
 ```bash
 infsh login
@@ -104,7 +104,7 @@ infsh app run google/veo-3-1-fast --input input.json
 
 ```bash
 # Full platform skill (all 150+ apps)
-npx skills add inference-sh/skills@agent-tools
+npx skills add inference-sh/skills@infsh-cli
 
 # All video generation models
 npx skills add inference-sh/skills@ai-video-generation
