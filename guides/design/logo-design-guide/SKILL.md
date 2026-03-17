@@ -10,7 +10,7 @@ Design effective logos with AI image generation via [inference.sh](https://infer
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
+> Requires inference.sh CLI (`infsh`). [Install instructions](https://raw.githubusercontent.com/inference-sh/skills/main/cli-install.md)
 
 ```bash
 infsh login

@@ -12,7 +12,7 @@ Generate and edit images with Alibaba Qwen-Image-2.0 models via [inference.sh](h
 
 ## Quick Start
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
+> Requires inference.sh CLI (`infsh`). [Install instructions](https://raw.githubusercontent.com/inference-sh/skills/main/cli-install.md)
 
 ```bash
 infsh login

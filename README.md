@@ -62,7 +62,7 @@ cp -r tools/* ui/* sdk/* guides/* ~/.claude/skills/
 
 ## CLI Setup
 
-> Requires inference.sh CLI (`infsh`). Get installation instructions: `npx skills add inference-sh/skills@infsh-cli`
+> Requires inference.sh CLI (`infsh`). [Install instructions](https://raw.githubusercontent.com/inference-sh/skills/main/cli-install.md)
 
 ```bash
 infsh login
