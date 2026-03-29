@@ -1,0 +1,12 @@
+{
+  "name": "synapse-layer",
+  "description": "Persistent zero-knowledge memory for AI agents",
+  "commands": {
+    "remember": "synapse remember",
+    "recall": "synapse recall",
+    "handover": "synapse handover",
+    "import": "synapse import",
+    "status": "synapse status",
+    "forget": "synapse forget"
+  }
+}
